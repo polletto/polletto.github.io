@@ -3,17 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 40, 42, 54;
-  --background-end-rgb: 41, 37, 52;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(193, 202, 212);
+  background: rgb(40, 42, 54);
+}
+
+a {
+  color: #8394ca;
+}
+
+a:hover {
+  color: #c8c8ff;
+  -webkit-transition: 0.5s linear color;
+  transition: 0.5s linear color;
 }
